@@ -1,0 +1,10 @@
+
+## Important Notes
+- Do not commit `.env` file to version control
+- Keep `JWT_SECRET` secure and unique per environment
+- Regularly backup your MongoDB database
+- Monitor Node.js version compatibility
+
+## Support
+For issues specific to this application, refer to the codebase documentation.
+For cPanel/Node.js issues, contact your hosting provider support.
