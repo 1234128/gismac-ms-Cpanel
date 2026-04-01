@@ -1,1 +1,24 @@
 
+# Server Configuration
+NODE_ENV=production
+PORT=3000
+
+# Database Configuration
+MONGODB_URI=mongodb://localhost:27017/gismac_db
+
+# Security
+JWT_SECRET=your_super_secure_random_string_minimum_32_characters_long
+
+# Application Settings
+APP_NAME=GISMAC-MS
+APP_URL=https://your-domain.com
+
+# Optional: Email Configuration (if used)
+SMTP_HOST=
+SMTP_PORT=587
+SMTP_USER=
+SMTP_PASS=
+
+# Optional: File Upload Limits
+MAX_FILE_SIZE=10485760
+UPLOAD_PATH=./uploads
